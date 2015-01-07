@@ -7,3 +7,6 @@ Feature: Starting the game
     Given I am on the homepage
     When I follow "New Game"
     Then I should see "What's your name?"
+    Given I am on the "New Game" page
+    When I type in my name
+    Then I should be able to submit my name
