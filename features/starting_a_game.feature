@@ -7,6 +7,6 @@ Feature: Starting the game
     Given I am on the homepage
     When I follow "New Game"
     Then I should see "What's your name?"
-    Given I am on the "New Game" page
-    When I type in my name
+    Given I am on newgame
+    When I press the submit button within newgame
     Then I should be able to submit my name

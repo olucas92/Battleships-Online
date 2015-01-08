@@ -8,6 +8,7 @@ class Battleships2 < Sinatra::Base
     erb :index
   end
 
+  
   get '/new_game' do
     erb :new_game
   end
@@ -18,5 +19,4 @@ class Battleships2 < Sinatra::Base
   run! if app_file == $0
 
 end
-
 
