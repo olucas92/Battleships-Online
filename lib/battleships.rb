@@ -13,6 +13,11 @@ class Battleships2 < Sinatra::Base
     erb :new_game
   end
 
+  post '/new_game' do
+   @name = params[:name]
+   erb :start_game
+  end
+
 
 
   # start the server if ruby file executed directly
