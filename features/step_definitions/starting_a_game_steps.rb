@@ -14,6 +14,10 @@ Given(/^I am on newgame$/) do
   visit '/new_game'
 end
 
+When(/^I press the submit button within newgame$/) do
+  pending # express the regexp above with the code you wish you had
+end
+
 Then(/^I should be able to submit my name$/) do
   pending # express the regexp above with the code you wish you had
 end
